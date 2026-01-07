@@ -15,7 +15,8 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    name: Build OpenWrt Firmware
+    runs-on: ubuntu-22.04
 
     steps:
     - name: Checkout
